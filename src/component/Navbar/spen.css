@@ -1,0 +1,78 @@
+.card {
+  border: solid 1px white;
+  height: 320px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 2pc;
+}
+
+.card1 {
+  border: solid 1px white;
+  border-radius: 20px;
+  width: 220px;
+  height: 130px;
+}
+.card2 {
+  border: solid 1px white;
+  border-radius: 20px;
+  width: 220px;
+  height: 130px;
+}
+
+.card-btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3pc;
+}
+
+.card-inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-btn1 button {
+  background: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1pc;
+}
+
+.card-inp input {
+  width: 180px;
+  height: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.card-inp button {
+  background: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+  border-radius: 10px;
+}
+.card-inp button:hover {
+  background: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+  background: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 10px;
+}

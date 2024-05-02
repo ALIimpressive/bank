@@ -1,0 +1,37 @@
+.seader {
+  position: relative;
+  position: absolute;
+  width: 935px;
+  height: 235px;
+  right: 95px;
+  bottom: 171px;
+  border-radius: 20px;
+}
+.e {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  position: absolute;
+  left: 394px;
+  border-radius: 100%;
+  bottom: 409px;
+}
+.seader {
+  border: solid 7px white;
+}
+
+.ser-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ser-text h4 {
+  color: white;
+}
+
+.ser-text h2 {
+  color: white;
+}
